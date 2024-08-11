@@ -1,0 +1,66 @@
+.player,
+.copyCanvas{
+    height: 100%;
+    width: 100%;
+}
+
+.overlayImage{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    object-fit: contain;
+    top: 0px;
+    left: 0px;
+}
+
+html,
+body {
+    height: calc(100%) !important;
+    width: calc(100%) !important;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.copyCanvas {
+    display: none;
+}
+
+.copyCanvas{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.overlay{
+    z-index: 1000;
+}
+
+.material-symbols-outlined{
+    font-size: 32px!important;
+    color: #fff;
+    padding: 16px;
+    user-select: none;
+}
+
+#switch-camera{
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    background-color: #a10000;
+    box-shadow: 0 0 15px #515151;
+    border-radius: 100%;
+}
+
+#switch-camera:hover{
+    background-color: #8b0000;
+}
+
+#switch-camera:active{
+    background-color: #2d0000;
+}
+
+.box{
+    position: fixed;
+    background-color: red;
+}
